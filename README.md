@@ -1,4 +1,5 @@
 <!-- hide -->
+# Excuse Generator with JS in 4GEEKS Academy
 # Hello World with Vanilla JS
 
 > 🇪🇸 [Spanish version of this readme is available](./README.es.md).
