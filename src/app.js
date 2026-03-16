@@ -1,5 +1,5 @@
 import "bootstrap";
-import "./style.css";
+//import "./style.css";
 
 window.onload = function() {
     //These are my arrays with the parts of the excuse
