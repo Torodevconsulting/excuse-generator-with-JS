@@ -22,6 +22,7 @@ window.onload = function() {
 
 const button = document.getElementById('excuseBtn');
 button.addEventListener('click', function() {
+    //location reload will reload the page and generate a new excuse
     location.reload();
 });
 
