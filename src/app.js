@@ -3,7 +3,7 @@ import "./style.css";
 
 window.onload = function() {
     //These are my arrays with the parts of the excuse
-    let who = ['Rocko ', 'My Mom ', 'The slenderman ', 'The witch of blair '];
+    let who = ['Rocko ', 'My Mom ', 'The slenderman ', 'The witch of blair', 'The ghost of my dead grandma'];
     let action = ['ate ', 'spelled ', 'digged ', 'poked '];
     let what = ['my eye ', 'your butt ', 'her armpit ', 'the dough '];
     let when = ['when I was running', 'while i was excercising', 'when i was fighting the crime', 'in the church', 'while i was programing'];
@@ -18,5 +18,10 @@ window.onload = function() {
     let excuse = who[randomWho] + ' ' + action[randomAction] + '' + what[randomWhat] + '' + when[randomWhen];
 
     document.getElementById('excuse').innerHTML = excuse;
-
 };
+
+const button = document.getElementById('excuseBtn');
+button.addEventListener('click', function() {
+    location.reload();
+});
+

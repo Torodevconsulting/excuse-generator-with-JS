@@ -50,6 +50,7 @@ h1{
     animation: fadeIn 0.6s ease-in;
 }
 
+
 @keyframes fadeIn {
     from {
         opacity: 0;
